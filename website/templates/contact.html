@@ -1,2 +1,33 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container">
+    <h1>Contact</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita aut vero magni laudantium fugit laborum omnis
+        dignissimos tenetur, necessitatibus eius reprehenderit rerum culpa atque. Exercitationem?</p>
+    <div class="container border rounded d-flex justify-content-end p-2" style="background-color: grey;">
+
+        <form class="col">
+            <div class="row row-cols-1 justify-content-end">
+
+                <!-- Correo -->
+                <div class="col py-2 me-0">
+                    <label for="inputMail" class="form-label">E-mail</label>
+                    <input type="text" class="form-control" id="inputMail" placeholder="Your E-mail" required>
+                </div>
+
+
+                <!-- Observaciones -->
+                <div class="col py-2">
+                    <label for="comments" class="form-label">Message</label>
+                    <textarea id="comments" class="form-control" rows="3" aria-describedby="commentsFooter"
+                        placeholder="Write your message here..."></textarea>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="reset" class="btn btn-secondary">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+</div>
